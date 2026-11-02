@@ -6,22 +6,19 @@
 
 This project is a practical exercise in Python-based data analysis and visualization using the Seaborn Taxis dataset. The main purpose was to explore taxi trip data, understand its structure, handle missing values and create different visualizations using Python libraries. The analysis covers taxi fares, trip distances, payment methods, pickup boroughs and tip distributions.
 
-🛠️ Technologies & Libraries
-
-Technology                      Purpose
+🛠️ Technologies & Libraries-  Purpose
   
+ Python                       - Data analysis
 
- Python                       Data analysis
+ Pandas                       - Data handling and preprocessing
 
- Pandas                       Data handling and preprocessing
+ NumPy                        - Numerical operations
 
- NumPy                        Numerical operations
+ Matplotlib                   - Creating visualizations
 
- Matplotlib                   Creating visualizations
-
- Seaborn                      Creating statistical visualizations
+ Seaborn                      - Creating statistical visualizations
  
- Jupyter Notebook             Writing and running Python code
+ Jupyter Notebook             - Writing and running Python code
 
 
 📂 Dataset 
@@ -63,32 +60,29 @@ Dataset Source: Seaborn built-in dataset (sns.load_dataset("taxis")).
 Created 10 visualizations using Matplotlib, Pandas and Seaborn.
 
 A. Matplotlib & Pandas
-* No.                                                     * Visualization                                                      * Purpose
  
-01                                                          Line Chart                                                           Explore fare changes over pickup time
+Line Chart    - Explore fare changes over pickup time
 
-02                                                          Bar Chart                                                            Compare fare totals across pickup boroughs
+Bar Chart     - Compare fare totals across pickup boroughs
 
-03                                                          Pie Chart                                                            View trips by payment method
+Pie Chart     - View trips by payment method
 
-04                                                          Histogram                                                            Examine the distribution of trip distances
+Histogram     - Examine the distribution of trip distances
 
-05                                                          Box Plot                                                             Explore tip distribution by pickup borough
+Box Plot      - Explore tip distribution by pickup borough
 
 
 B. Seaborn
 
-No.                                                        * Visualization                                                       * Purpose
+Count Plot     - View the number of trips by pickup borough
 
-06                                                           Count Plot                                                           View the number of trips by pickup borough
+Scatter Plot   - Explore the relationship between distance and fare
 
-07                                                           Scatter Plot                                                         Explore the relationship between distance and fare
+Heatmap        - Examine correlations between numerical variables
 
-08                                                           Heatmap                                                              Examine correlations between numerical variables
+Pair Plot      - Explore relationships between selected numerical variables
 
-09                                                           Pair Plot                                                            Explore relationships between selected numerical variables
-
-10                                                           Violin Plot                                                          Compare fare distributions by payment method
+Violin Plot    - Compare fare distributions by payment method
 
 
 📊 Areas Explored

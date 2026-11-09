@@ -112,3 +112,11 @@ While completing this project, I practised:
 
 
 This project was completed as part of my learning journey in Data Analytics to practise data exploration, preprocessing and visualization using Python. 
+
+👤 Author
+Aparna N
+Data Analytics Enthusiast
+
+
+
+⭐ Thank you for visiting this project repository!
